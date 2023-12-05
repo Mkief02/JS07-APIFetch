@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.card {
+	margin: 10px;
+  }
+  .card-header {
+	background-color: transparent;
+  }
+  
+  .card-text, .card-title, .badge {
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  .card-img-top {
+	height: 70%;
+	object-fit: cover;
+	border-radius: 50%;
+	transition: transform 0.3s;
+  }
+  
+  .card-img-top:hover {
+	transform: scale(1.1);
+  }
+  
+  .badge {
+	font-size: 1rem;
+	margin: auto;
+	display: block;
+  }
+  p1{
+	font-size: larger;
+	color: whitesmoke;
+  }
